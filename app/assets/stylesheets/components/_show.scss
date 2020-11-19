@@ -1,0 +1,31 @@
+h1 {
+  color: rgb(130, 204, 45);
+  font-size: 200px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.description {
+  text-align: center;
+  background-color: rgb(199, 72, 72);
+  width: 500px;
+}
+
+.ingredients {
+    text-align: center;
+    background-color: rgb(199, 72, 72);
+    width: 500px;
+}
+
+.link-page-before {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+}

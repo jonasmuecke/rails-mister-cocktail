@@ -1,0 +1,6 @@
+<%= simple_form_for [@cocktail] do |f| %>
+  <%= f.input :name, :placeholder => "Add Name..." %>
+  <%= f.input :description, :placeholder => "Add Description..." %>
+  <%= f.submit %>
+<% end %>
+<%= link_to 'Back', cocktails_path, class: 'link-page-before' %>
