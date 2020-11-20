@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(173, 97, 175);
   font-size: 200px;
   text-align: center;
   margin-top: 30px;
@@ -20,6 +20,8 @@ h1 {
   width: 500px;
   padding-top: 10px;
   padding-bottom: 5px;
+  margin-bottom: 50px;
+  border-radius: 5px;
 }
 
 .ingredients {
@@ -30,11 +32,27 @@ h1 {
     width: 500px;
     padding-top: 10px;
     padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 .link-page-before {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   left: 50%;
   margin-bottom: 5px;
+}
+
+.card-category {
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.ingred {
+  display: flex;
+  justify-content: space-around;
 }

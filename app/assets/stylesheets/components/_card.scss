@@ -6,6 +6,7 @@
   padding: 16px;
   text-align: center;
   height: 300px;
+  border-radius: 5px;
 }
 
 .name {
@@ -16,8 +17,10 @@ a {
   color: rgb(173, 97, 175);
 }
 
-.detail-link {
+.links {
+  display: flex;
   color: rgb(173, 97, 175);
   position: relative;
   bottom: -200px;
+  left: 38%;
 }
