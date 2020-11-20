@@ -1,8 +1,23 @@
 .card {
-  color: rgb(255, 255, 255);
-  background-color: rgb(98, 44, 109);
+  font-weight: bolder;
+  color: rgb(173, 97, 175);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  height: 300px;
+}
+
+.name {
+  font-weight: bold;
 }
 
 a {
-  color: hsl(0, 0%, 100%);
+  color: rgb(173, 97, 175);
+}
+
+.detail-link {
+  color: rgb(173, 97, 175);
+  position: relative;
+  bottom: -200px;
 }

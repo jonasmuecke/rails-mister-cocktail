@@ -1,8 +1,10 @@
-  <div class="cards">
+  <div class="row">
   <% @cocktails.each do |cocktail| %>
+  <div class="column">
   <div class="card">
-  <h2><%= cocktail.name %></h2>
-  <%= link_to 'Details', cocktail_path(cocktail) %>
+  <h2 class="name"> <%= cocktail.name %></h2>
+  <%= link_to 'Details', cocktail_path(cocktail), class: 'detail-link' %>
+  </div>
   </div>
   <% end %>
   </div>
